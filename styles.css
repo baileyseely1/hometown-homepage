@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 100%;
+  background-image: url(images/torshov.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+}
+
+.hero-title {
+  margin: 0;
+  font-size: 32px;
+  background: #1d3557;
+  padding: 5px 20px;
+}
+
+.hero-subtitle {
+  max-width: 35ch;
+  margin: 20px 0 0 0;
+  font-size: 18.72px;
+  background: #457b9d;
+  padding: 5px 30px;
+}
+
+.round-border {
+  border-radius: 10px;
+}
+
+.activity-img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.activities-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.activity-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 2em;
+}
+
+.activity-title-container {
+  padding: 3em 0;
+  background: #f1faee;
+}
+
+.guide-img {
+  width: 180px;
+  border-radius: 10%;
+  margin-left: 20px;
+}
+
+.activity-desc {
+  color: #1d3557;
+  font-size: 16px;
+}
+
+.activities {
+  background: #f1faee;
+}
+
+.card {
+  width: 400px;
+  margin: 3em auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background: #a8dadc;
+  color: #2b2839;
+  border-bottom: 6px solid #042869;
+  border-radius: 15px;
+}
+
+.card-section {
+  margin-bottom: 5em;
+}
+
+.guide-desc {
+  font-style: italic;
+}
+
+.guide-name {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.guide-title {
+  font-size: 1.5em;
+}
+
+.hover-prompt {
+  margin-top: 2em;
+}
+
+.card:hover {
+  box-shadow: 10px 10px #093a85;
+  animation: shake 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
